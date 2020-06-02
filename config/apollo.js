@@ -5,7 +5,7 @@ import {setContext} from 'apollo-link-context';
 
 // le decimos donde se conectara
 const httpLink = createHttpLink({
-  uri: "http://localhost:4000/", 
+  uri: "https://ancient-stream-64315.herokuapp.com/", 
   fetch 
 });
 
