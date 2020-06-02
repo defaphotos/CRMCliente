@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import {gql,useQuery } from '@apollo/client';
-import Producto from '../components/producto';
+import Producto from '../components/Producto';
 import Link from 'next/link';
 
 const OBTENER_PRODUCTOS =gql`

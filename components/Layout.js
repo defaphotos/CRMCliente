@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Sidebar from "./sidebar";
-import Header from './header';
+import Sidebar from "./Sidebar";
+import Header from './Header';
 import { useRouter } from "next/router";
 
 const Layout = ({ children }) => {
