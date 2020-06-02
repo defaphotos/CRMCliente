@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import AsignarCliente from "../components/pedidos/AsignarCliente";
 import AsignarProductos from "../components/pedidos/AsignarProductos";
 import ResumenPedido from "../components/pedidos/ResumenPedido";

@@ -1,9 +1,8 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { gql, useQuery } from "@apollo/client";
 import { useRouter } from "next/router";
-import link from 'next/link';
 import Link from "next/link";
-import Cliente from '../components/cliente';
+import Cliente from '../components/Cliente';
 
 const OBTENER_CLIENTES_USUARIO = gql`
   query obtenerClientesVendedor {

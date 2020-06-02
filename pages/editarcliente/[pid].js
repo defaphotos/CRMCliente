@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import { gql, useQuery, useMutation } from "@apollo/client";
 import { Formik } from "formik";
 import * as Yup from "yup";

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Link from "next/link";
 import { gql, useQuery } from "@apollo/client";
 import Pedido from "../components/Pedido";
